@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Sidebar",
+  "version": "1.0",
+  "description": "Access Google Gemini directly in your browser sidebar!",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["sidePanel"],
+  "action": {
+    "default_title": "Gemini Sidebar"
+  },
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "background": {
+    "service_worker": "sidebar.js"
+  }
+}
